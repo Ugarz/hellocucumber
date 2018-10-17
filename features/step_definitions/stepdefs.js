@@ -14,7 +14,7 @@ function isItFriday(day) {
 }
 
 Given('today is {string}', function (givenDay) {
-    this.today = givenDay;
+    console.log('Coucou var', this.variable)
 });
 
 When('I ask whether it\'s Friday yet', function () {
