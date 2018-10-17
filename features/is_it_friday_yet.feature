@@ -8,6 +8,6 @@ Feature: Is it Friday yet?
 
         Examples:
             | day              | answer |
-            | "Friday"         | "TGIF" |
-            | "Sunday"         | "Nope" |
-            | "anything else!" | "Nope" |
+            | "Friday"         | "yes" |
+            | "Sunday"         | "no" |
+            | "anything else!" | "no" |

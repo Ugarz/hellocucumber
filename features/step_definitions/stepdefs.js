@@ -1,11 +1,15 @@
 const assert = require('assert');
 const { Given, When, Then } = require('cucumber');
 
-function isItFriday(today) {
-    if (today === "Friday") {
-        return "TGIF";
+/**
+ * Check if current day is Friday
+ * @param {string} day - Day, of today 
+ */
+function isItFriday(day) {
+    if (day === "Friday") {
+        return "yes";
     } else {
-        return "Nope";
+        return "no";
     }
 }
 
